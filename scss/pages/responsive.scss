@@ -1,0 +1,78 @@
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    #top{
+        height: 376px;
+        img{
+            padding-top:30px;
+        }
+        .top-slider{
+            @include slider(30px,84px,-10px,750px,66px);
+        }
+    }
+    #know{
+        background-color: aquamarine;
+        height: 1155px;
+        .container{
+            .img-logo{
+                margin: 20px 0px 15px 0px;
+            }
+            h3{
+                margin-bottom: 20px;
+            }
+            .know-row{
+                .row{
+                    .row-sub{
+                        height: 495px;
+                    }
+                }
+            }
+        }
+    }
+    #review{
+        background-color: azure;
+        .container{
+            img{
+                margin: 20px 0px 15px 0px;
+            }
+            h3{
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+// phone
+@media screen and (min-width: 600px) and (max-width: 800px){
+//    .review-row img{
+//         background-position: center;
+//         background-repeat: no-repeat;
+//         background-size: cover;
+//     }
+//     .row-sub{
+//         img{
+//             background-position: center;
+//             background-repeat: no-repeat;
+//             background-size: cover;
+//         }
+//     }
+} 
+// ipad small
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+   #know{
+        background-color: blueviolet;
+        .know-row{
+            .row-sub{
+                height: 485px;
+            }
+        }
+   }
+    #review{
+        .review-row{
+            img{
+                height: auto;
+            }
+            // .review-text{
+
+            // }
+        }
+    }
+}
+// ipad big
